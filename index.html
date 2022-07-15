@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title></title>
+ <body style = "background-color : cyan;">
+ <style>
+ .chatbox
+ {
+ background:white;
+ position:fixed;
+ right:25px;bottom:15px;
+ color:black;
+ float:right;
+ height:20px;
+ width:50px;
+ border-bottom:0px;
+ margin-bottom:0px;
+ }
+ 
+ .popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+ </style>
+ </head>
+<center>
+  <h1>E-LIBRARY</h1>
+	<h2>Member Login</h2>
+	<input placeholder = "Roll No"></input>
+	<br></br>
+	<input placeholder = "Password" type = "password"></input>
+	<br></br>
+	<a href = "webpage 4.html" target = "_blank"><input type = "button" value = "Login"></input></a>
+	<br></br>
+	<a href = "webpage2.html" target = "_blank">Not yet register?</a>
+</center>
+<div class="chatbox">
+<div><script type="text/javascript">
+  (function(d, m){
+      var kommunicateSettings = 
+          {"appId":"26a500c0f5bdb31d98c8846c025698e51","popupWidget":true,"automaticChatOpenOnNavigation":true};
+      var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+      s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+      var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+      window.kommunicate = m; m._globals = kommunicateSettings;
+  })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script></div>
+
+<script>
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
