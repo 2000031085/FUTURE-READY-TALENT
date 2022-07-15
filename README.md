@@ -2,6 +2,8 @@
 
 SAMPLE OUTPUTS:
 
-![image](https://user-images.githubusercontent.com/91055530/178902927-56f9d26e-8061-4524-80a5-4238817ad62e.png)
+![image](https://user-images.githubusercontent.com/91055530/179170991-c27a4aaf-be50-45b7-985b-37f9e99d8b05.png)
 
-![image](https://user-images.githubusercontent.com/91055530/178902976-e9e5de51-92f0-453c-8aa8-b024375d8643.png)
+![image](https://user-images.githubusercontent.com/91055530/179171026-ed27d096-208d-4f36-aac6-1eef1f195659.png)
+
+![image](https://user-images.githubusercontent.com/91055530/179171064-e152c472-d0a8-4e76-997b-69a6294f9cdc.png)
